@@ -2,8 +2,11 @@
 
 /**
 * FUNCTION randn( length )
-*	Creates an `array`
+*	Creates an `array` of standard normal random variates
+*	using the Box-Mueller transform.
 *
+* @param {Number} length - array length
+* @param {Number|Array} standard normal random variates
 */
 function randn( length ) {
 	var urand, vrand,
