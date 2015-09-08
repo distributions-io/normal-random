@@ -1,0 +1,70 @@
+{
+  "name": "distributions-normal-random",
+  "version": "0.0.0",
+  "description": "Generates normally distributed random numbers.",
+  "author": {
+    "name": "Philipp Burckhardt",
+    "email": "pburckhardt@outlook.com"
+  },
+  "contributors": [
+    {
+      "name": "Philipp Burckhardt",
+      "email": "pburckhardt@outlook.com"
+    }
+  ],
+  "scripts": {
+    "test": "mocha",
+    "test-cov": "istanbul cover ./node_modules/.bin/_mocha --dir ./reports/coverage -- -R spec",
+    "codecov": "istanbul cover ./node_modules/.bin/_mocha --dir ./reports/codecov/coverage --report lcovonly -- -R spec && cat ./reports/codecov/coverage/lcov.info | codecov && rm -rf ./reports/codecov"
+  },
+  "main": "./lib",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/distributions-io/normal-random.git"
+  },
+  "keywords": [
+    "distributions.io",
+    "distributions",
+    "probability",
+    "statistics",
+    "stats",
+    "array",
+    "arrays",
+    "matrix",
+    "matrices",
+    "fill",
+    "typed-array",
+    "dstructs",
+    "ndarray",
+    "multidimensional",
+    "random variables",
+    "random numbers",
+    "random variates",
+    "gaussian",
+    "bell-shaped"
+  ],
+  "bugs": {
+    "url": "https://github.com/distributions-io/normal-random/issues"
+  },
+  "dependencies": {
+    "compute-array-constructors": "^1.0.0",
+    "compute-lcg": "^1.0.0",
+    "dstructs-matrix": "^2.0.0",
+    "validate.io-nonnegative": "^1.0.0",
+    "validate.io-object": "^1.0.4",
+    "validate.io-positive-integer": "^1.0.0",
+    "validate.io-positive-integer-array": "^1.0.0",
+    "validate.io-positive-primitive": "^1.0.0",
+    "validate.io-string-primitive": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "3.x.x",
+    "codecov.io": "^0.1.5",
+    "compute-mean": "^3.0.0",
+    "istanbul": "^0.3.0",
+    "jshint": "2.x.x",
+    "jshint-stylish": "2.x.x",
+    "mocha": "2.x.x"
+  },
+  "license": "MIT"
+}
