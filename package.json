@@ -1,7 +1,7 @@
 {
   "name": "distributions-normal-random",
   "version": "0.0.0",
-  "description": "Generates normally distributed random numbers.",
+  "description": "Generates normally distributed random variates.",
   "author": {
     "name": "Philipp Burckhardt",
     "email": "pburckhardt@outlook.com"
