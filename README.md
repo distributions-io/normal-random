@@ -208,7 +208,7 @@ $ make view-cov
 
 ## Copyright
 
-Copyright &copy; 2015. The [Compute.io](https://github.com/compute-io) Authors.
+Copyright &copy; 2015-2016. The [Compute.io](https://github.com/compute-io) Authors.
 
 
 [npm-image]: http://img.shields.io/npm/v/distributions-normal-random.svg
