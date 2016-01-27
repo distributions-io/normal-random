@@ -51,6 +51,7 @@
     "compute-lcg": "^1.0.0",
     "dstructs-matrix": "^2.0.0",
     "validate.io-nonnegative": "^1.0.0",
+    "validate.io-number-primitive": "^1.0.0",
     "validate.io-object": "^1.0.4",
     "validate.io-positive-integer": "^1.0.0",
     "validate.io-positive-integer-array": "^1.0.0",
